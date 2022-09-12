@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  UIComponents
+
+ //  Created by Amber Çatalbaş on 10.09.2022.
+
+*/
+
+// MARK: - Splash
+"SplashViewController.disconnect" = "İnternete bağlı değilsiniz";
+"SplashViewController.tryAgain" = "Tekrar Deneyin";
+
+// MARK: - Home
+"HomeViewController.searchPlaceholder" = "Ara...";
+"HomeViewController.searchButtonTitle" = "ARA";
+
+// MARK: - Detail
+"DetailViewController.movieName" = "Film Adı:";
+"DetailViewController.movieYear" = "Yapım Yılı:";
+"DetailViewController.movieType" = "Tipi:";

@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  UIComponents
+
+ //  Created by Amber Çatalbaş on 10.09.2022.
+
+*/
+
+// MARK: - Splash
+"SplashViewController.disconnect" = "You are not connected to the internet";
+"SplashViewController.tryAgain" = "Try Again";
+
+
+// MARK: - Home
+"HomeViewController.searchPlaceholder" = "Search...";
+"HomeViewController.searchButtonTitle" = "SEARCH";
+
+// MARK: - Detail
+"DetailViewController.movieName" = "Movie Name:";
+"DetailViewController.movieYear" = "Movie Year:";
+"DetailViewController.movieType" = "Movie Type:";
+
+

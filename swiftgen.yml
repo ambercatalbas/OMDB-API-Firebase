@@ -1,0 +1,51 @@
+fonts:
+  inputs: OMDB-API-Firebase/UIComponents/Resources/Fonts
+  outputs:
+    templateName: swift5
+    output: OMDB-API-Firebase/UIComponents/Resources/Fonts/Fonts.swift
+    params:
+        publicAccess: public
+
+strings:
+  inputs: OMDB-API-Firebase/UIComponents/Resources/Strings/en.lproj
+  filter: .+\.strings$
+  outputs:
+    - templateName: structured-swift5
+      output: OMDB-API-Firebase/UIComponents/Resources/Strings/StringConstants.swift
+      params:
+          publicAccess: public
+
+xcassets:
+  - inputs:
+    - OMDB-API-Firebase/UIComponents/Resources/Assets/Images.xcassets
+    - OMDB-API-Firebase/UIComponents/Resources/Assets/Icons.xcassets
+    - OMDB-API-Firebase/UIComponents/Resources/Assets/Colors.xcassets
+    outputs:
+      - templateName: swift5
+        output: OMDB-API-Firebase/UIComponents/Resources/Assets/Assets.swift
+        params:
+            publicAccess: public
+              
+  - inputs:
+    - OMDB-API-Firebase/UIComponents/Resources/Assets/Images.xcassets
+    outputs:
+      - templatePath: OMDB-API-Firebase/UIComponents/SwiftGenTemplates/images.stencil
+        output: OMDB-API-Firebase/UIComponents/Resources/Assets/UIImage+Images.swift
+        params:
+            publicAccess: public
+            
+  - inputs:
+    - OMDB-API-Firebase/UIComponents/Resources/Assets/Icons.xcassets
+    outputs:
+      - templatePath: OMDB-API-Firebase/UIComponents/SwiftGenTemplates/icons.stencil
+        output: OMDB-API-Firebase/UIComponents/Resources/Assets/UIImage+Icons.swift
+        params:
+            publicAccess: public
+            
+  - inputs:
+    - OMDB-API-Firebase/UIComponents/Resources/Assets/Colors.xcassets
+    outputs:
+      - templatePath: OMDB-API-Firebase/UIComponents/SwiftGenTemplates/colors.stencil
+        output: OMDB-API-Firebase/UIComponents/Resources/Assets/UIColor+Colors.swift
+        params:
+            publicAccess: public
