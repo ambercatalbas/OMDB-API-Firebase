@@ -596,13 +596,6 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
-		4EB2AAC828D115F3003FBAD8 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		4EC7335328CBE22200A98349 = {
 			isa = PBXGroup;
 			children = (
@@ -630,7 +623,6 @@
 		4EC7335E28CBE22300A98349 /* OMDB-API-Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				4EB2AAC828D115F3003FBAD8 /* New Group */,
 				4E7743CF28CC929500A4249D /* AppDelegate */,
 				4E77440228CC966E00A4249D /* Scenes */,
 				4E7743EC28CC957C00A4249D /* Routing */,
