@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import DataProvider
 
 protocol HomeViewDataSource {
     var sectionListSource: [HomeSection] { get }

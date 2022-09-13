@@ -5,7 +5,6 @@
 //  Created by Amber Çatalbaş on 10.09.2022.
 //
 
-import DataProvider
 
 protocol DetailRoute {
     

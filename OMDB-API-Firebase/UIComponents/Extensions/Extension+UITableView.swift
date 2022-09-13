@@ -7,7 +7,7 @@
 
 import UIKit
 
-// swiftlint:disable fatal_error
+// swiftlint:disable fatal_error force_cast
 public extension UITableView {
     
     func register<T: UITableViewCell>(_: T.Type) where T: ReusableView {

@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import DataProvider
 import TinyConstraints
 
 final class HomeViewController: BaseViewController<HomeViewModel> {

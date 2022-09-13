@@ -4,6 +4,8 @@
 //
 //  Created by Amber Çatalbaş on 11.09.2022.
 //
+// swiftlint:disable fatal_error force_cast force_try
+
 
 import UIKit
 import Reachability
@@ -50,7 +52,10 @@ class ReachabilityManager: NSObject, CustomAlertViewButtonActionDelegate {
         switch reachability.connection {
         case .unavailable,.none:
             
-            self.showAlertSingleButton(title: "", image: nil, message: "İstek zaman aşımına uğradı. \nLütfen internet bağlantınızı kontrol edin.", titleHeight: 40, messageHeight: 70, imageHeight: nil, buttonTitle: "Ayarlara Git")
+            self.showAlertSingleButton(title: "",
+                                       image: nil,
+                                       message: "İstek zaman aşımına uğradı. \nLütfen internet bağlantınızı kontrol edin.",
+                                       titleHeight: 40, messageHeight: 70, imageHeight: nil, buttonTitle: "Ayarlara Git")
             print("Network became unreachable")
         case .wifi:
             print("Network reachable through WiFi")
@@ -63,7 +68,10 @@ class ReachabilityManager: NSObject, CustomAlertViewButtonActionDelegate {
     func checkNetworkConnection() -> Bool {
         let reachability = try! Reachability()
         if reachability.connection == .unavailable {
-            self.showAlertSingleButton(title: "", image: nil, message: "İstek zaman aşımına uğradı. \nLütfen internet bağlantınızı kontrol edin.", titleHeight: 40, messageHeight: 70, imageHeight: nil, buttonTitle: "Tamam")
+            self.showAlertSingleButton(title: "",
+                                       image: nil,
+                                       message: "İstek zaman aşımına uğradı. \nLütfen internet bağlantınızı kontrol edin.",
+                                       titleHeight: 40, messageHeight: 70, imageHeight: nil, buttonTitle: "Tamam")
             return false
         } else {
             return true
@@ -71,7 +79,7 @@ class ReachabilityManager: NSObject, CustomAlertViewButtonActionDelegate {
     }
     
     func showAlertSingleButton(title:String?, image:UIImage?, message:String?, titleHeight:CGFloat?, messageHeight:CGFloat?, imageHeight:CGFloat? ,buttonTitle:String ){
-        self.alert = CustomAlertView(title: title,  image: image, message: message,titleHeight:titleHeight , messageHeight:messageHeight , imageHeight:imageHeight , bnum: ButtonCount.singleButton)
+        self.alert = CustomAlertView(title: title,  image: image, message: message, titleHeight:titleHeight , messageHeight:messageHeight , imageHeight:imageHeight , bnum: ButtonCount.singleButton)
         self.alert.buttonSingle.setTitle(buttonTitle, for: .normal)
         self.alert.delegate = self
         self.alert.show(animated: true)

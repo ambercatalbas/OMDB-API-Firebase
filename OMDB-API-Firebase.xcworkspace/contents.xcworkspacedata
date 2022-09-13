@@ -5,9 +5,6 @@
       location = "group:OMDB-API-Firebase.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:DataProvider/DataProvider.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,7 +7,6 @@
 
 import Foundation
 import Alamofire
-import DataProvider
 
 protocol DetailViewDataSource {
     var movie: Movie { get }

@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28E6FA9406172779A9C72A09 /* Pods_OMDB_API_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7B6169F1C69926B541702F /* Pods_OMDB_API_Firebase.framework */; };
+		0350069121D1E7FBFB12E700 /* Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597F717E087DFEA8DD8967DA /* Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework */; };
+		35FE440A886A222B8CAD1CC8 /* Pods_OMDB_API_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25CFE0649649B5E79AC62B2 /* Pods_OMDB_API_Firebase.framework */; };
+		4E4B1B6A28D1182200111B2B /* DecodableResponseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B5A28D1182200111B2B /* DecodableResponseRequest.swift */; };
+		4E4B1B6B28D1182200111B2B /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B5B28D1182200111B2B /* RequestProtocol.swift */; };
+		4E4B1B6C28D1182200111B2B /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B5C28D1182200111B2B /* RequestMethod.swift */; };
+		4E4B1B6D28D1182200111B2B /* RequestEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B5D28D1182200111B2B /* RequestEncoding.swift */; };
+		4E4B1B6E28D1182200111B2B /* DataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B5E28D1182200111B2B /* DataProviderProtocol.swift */; };
+		4E4B1B6F28D1182200111B2B /* APIDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B6028D1182200111B2B /* APIDataProvider.swift */; };
+		4E4B1B7028D1182200111B2B /* APIRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B6128D1182200111B2B /* APIRequestAdapter.swift */; };
+		4E4B1B7128D1182200111B2B /* APIDecodableResponseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B6228D1182200111B2B /* APIDecodableResponseRequest.swift */; };
+		4E4B1B7228D1182200111B2B /* HomeCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B6428D1182200111B2B /* HomeCellItem.swift */; };
+		4E4B1B7328D1182200111B2B /* HomeSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B6528D1182200111B2B /* HomeSectionType.swift */; };
+		4E4B1B7428D1182200111B2B /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B6628D1182200111B2B /* HomeSection.swift */; };
+		4E4B1B7528D1182200111B2B /* MovieListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B6728D1182200111B2B /* MovieListResponse.swift */; };
+		4E4B1B7628D1182200111B2B /* GetMoviesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B6928D1182200111B2B /* GetMoviesRequest.swift */; };
+		4E4B1B7828D11A8100111B2B /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B1B7728D11A8100111B2B /* Typealias.swift */; };
+		4E70825128D11E10005FBDEE /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4E70825028D11E10005FBDEE /* .swiftlint.yml */; };
 		4E7743E728CC94DD00A4249D /* APILogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7743E428CC94DC00A4249D /* APILogger.swift */; };
 		4E7743E828CC94DD00A4249D /* APIRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7743E528CC94DC00A4249D /* APIRequestInterceptor.swift */; };
 		4E7743E928CC94DD00A4249D /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7743E628CC94DC00A4249D /* DataProvider.swift */; };
@@ -30,8 +46,6 @@
 		4E77441928CC96CB00A4249D /* DetailRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77441528CC96CB00A4249D /* DetailRoute.swift */; };
 		4E77441A28CC96CB00A4249D /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77441628CC96CB00A4249D /* DetailViewModel.swift */; };
 		4E77441B28CC96CB00A4249D /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77441728CC96CB00A4249D /* DetailRouter.swift */; };
-		4E77449128CCA3AF00A4249D /* DataProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E77449028CCA3AF00A4249D /* DataProvider.framework */; };
-		4E77449228CCA3AF00A4249D /* DataProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E77449028CCA3AF00A4249D /* DataProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4E7744F428CCB6A100A4249D /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4E7744F328CCB6A100A4249D /* swiftgen.yml */; };
 		4E77451728CCB6B600A4249D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E7744F728CCB6B500A4249D /* Localizable.strings */; };
 		4E77451928CCB6B600A4249D /* JosefinSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E7744FC28CCB6B600A4249D /* JosefinSans-Italic.ttf */; };
@@ -92,8 +106,7 @@
 		4EC7338128CBE22700A98349 /* OMDB_API_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7338028CBE22700A98349 /* OMDB_API_FirebaseUITests.swift */; };
 		4EC7338328CBE22700A98349 /* OMDB_API_FirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7338228CBE22700A98349 /* OMDB_API_FirebaseUITestsLaunchTests.swift */; };
 		4EC7339528CBE41500A98349 /* RCValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7339428CBE41500A98349 /* RCValues.swift */; };
-		69C18A3A339AA34CF244AE70 /* Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2B5DC0022228D33B22527F /* Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework */; };
-		8FFACC5F9AB284C6FA7B452A /* Pods_OMDB_API_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F16A71D627EC98F586F699 /* Pods_OMDB_API_FirebaseTests.framework */; };
+		EF42E5CE1A1F856F10F28C89 /* Pods_OMDB_API_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E02C3D6C2A50DBF64B0E96 /* Pods_OMDB_API_FirebaseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,25 +126,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		4E77449328CCA3AF00A4249D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4E77449228CCA3AF00A4249D /* DataProvider.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0161E3474DC37AC7153D2523 /* Pods-OMDB-API-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-Firebase.release.xcconfig"; path = "Target Support Files/Pods-OMDB-API-Firebase/Pods-OMDB-API-Firebase.release.xcconfig"; sourceTree = "<group>"; };
-		0F2B5DC0022228D33B22527F /* Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CD7930E33DB74EC60C36CAA /* Pods-OMDB-API-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-Firebase.debug.xcconfig"; path = "Target Support Files/Pods-OMDB-API-Firebase/Pods-OMDB-API-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
-		28F16A71D627EC98F586F699 /* Pods_OMDB_API_FirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDB_API_FirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4878FA98B1E58AB945A2FAD9 /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.release.xcconfig"; path = "Target Support Files/Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests/Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E4B1B5A28D1182200111B2B /* DecodableResponseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableResponseRequest.swift; sourceTree = "<group>"; };
+		4E4B1B5B28D1182200111B2B /* RequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		4E4B1B5C28D1182200111B2B /* RequestMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		4E4B1B5D28D1182200111B2B /* RequestEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestEncoding.swift; sourceTree = "<group>"; };
+		4E4B1B5E28D1182200111B2B /* DataProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProviderProtocol.swift; sourceTree = "<group>"; };
+		4E4B1B6028D1182200111B2B /* APIDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDataProvider.swift; sourceTree = "<group>"; };
+		4E4B1B6128D1182200111B2B /* APIRequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestAdapter.swift; sourceTree = "<group>"; };
+		4E4B1B6228D1182200111B2B /* APIDecodableResponseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDecodableResponseRequest.swift; sourceTree = "<group>"; };
+		4E4B1B6428D1182200111B2B /* HomeCellItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCellItem.swift; sourceTree = "<group>"; };
+		4E4B1B6528D1182200111B2B /* HomeSectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSectionType.swift; sourceTree = "<group>"; };
+		4E4B1B6628D1182200111B2B /* HomeSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
+		4E4B1B6728D1182200111B2B /* MovieListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListResponse.swift; sourceTree = "<group>"; };
+		4E4B1B6928D1182200111B2B /* GetMoviesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMoviesRequest.swift; sourceTree = "<group>"; };
+		4E4B1B7728D11A8100111B2B /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		4E70825028D11E10005FBDEE /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		4E7743E428CC94DC00A4249D /* APILogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APILogger.swift; sourceTree = "<group>"; };
 		4E7743E528CC94DC00A4249D /* APIRequestInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestInterceptor.swift; sourceTree = "<group>"; };
 		4E7743E628CC94DC00A4249D /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
@@ -223,11 +234,14 @@
 		4EC7338028CBE22700A98349 /* OMDB_API_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDB_API_FirebaseUITests.swift; sourceTree = "<group>"; };
 		4EC7338228CBE22700A98349 /* OMDB_API_FirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDB_API_FirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4EC7339428CBE41500A98349 /* RCValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCValues.swift; sourceTree = "<group>"; };
-		8C7B6169F1C69926B541702F /* Pods_OMDB_API_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDB_API_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DC08DA67DDC2E418A41A821 /* Pods-OMDB-API-FirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-FirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-OMDB-API-FirebaseTests/Pods-OMDB-API-FirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
-		E6D0600A4A5D458B21C2C65F /* Pods-OMDB-API-FirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-FirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-OMDB-API-FirebaseTests/Pods-OMDB-API-FirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F1F0B6F4125CD64775C1C50E /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests/Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F9CAEE86F4766D2202C8A248 /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.release.xcconfig"; path = "Target Support Files/Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests/Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		514576388D5DD18CC340729D /* Pods-OMDB-API-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-Firebase.release.xcconfig"; path = "Target Support Files/Pods-OMDB-API-Firebase/Pods-OMDB-API-Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		597F717E087DFEA8DD8967DA /* Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6047DC15AF3453AFC46101C9 /* Pods-OMDB-API-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-Firebase.debug.xcconfig"; path = "Target Support Files/Pods-OMDB-API-Firebase/Pods-OMDB-API-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		63E02C3D6C2A50DBF64B0E96 /* Pods_OMDB_API_FirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDB_API_FirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45C6E135996917A19A1DC2E /* Pods-OMDB-API-FirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-FirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-OMDB-API-FirebaseTests/Pods-OMDB-API-FirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		D25CFE0649649B5E79AC62B2 /* Pods_OMDB_API_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDB_API_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF804E4C871742EBD656E3C /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests/Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC39B3AE10DAA47795AB7873 /* Pods-OMDB-API-FirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB-API-FirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-OMDB-API-FirebaseTests/Pods-OMDB-API-FirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,8 +249,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E77449128CCA3AF00A4249D /* DataProvider.framework in Frameworks */,
-				28E6FA9406172779A9C72A09 /* Pods_OMDB_API_Firebase.framework in Frameworks */,
+				35FE440A886A222B8CAD1CC8 /* Pods_OMDB_API_Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +257,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FFACC5F9AB284C6FA7B452A /* Pods_OMDB_API_FirebaseTests.framework in Frameworks */,
+				EF42E5CE1A1F856F10F28C89 /* Pods_OMDB_API_FirebaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +265,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C18A3A339AA34CF244AE70 /* Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework in Frameworks */,
+				0350069121D1E7FBFB12E700 /* Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E4B1B5928D1182200111B2B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4E4B1B5A28D1182200111B2B /* DecodableResponseRequest.swift */,
+				4E4B1B5B28D1182200111B2B /* RequestProtocol.swift */,
+				4E4B1B5C28D1182200111B2B /* RequestMethod.swift */,
+				4E4B1B5D28D1182200111B2B /* RequestEncoding.swift */,
+				4E4B1B5E28D1182200111B2B /* DataProviderProtocol.swift */,
+				4E4B1B7728D11A8100111B2B /* Typealias.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4E4B1B5F28D1182200111B2B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4E4B1B6028D1182200111B2B /* APIDataProvider.swift */,
+				4E4B1B6128D1182200111B2B /* APIRequestAdapter.swift */,
+				4E4B1B6228D1182200111B2B /* APIDecodableResponseRequest.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4E4B1B6328D1182200111B2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E4B1B6428D1182200111B2B /* HomeCellItem.swift */,
+				4E4B1B6528D1182200111B2B /* HomeSectionType.swift */,
+				4E4B1B6628D1182200111B2B /* HomeSection.swift */,
+				4E4B1B6728D1182200111B2B /* MovieListResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E4B1B6828D1182200111B2B /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				4E4B1B6928D1182200111B2B /* GetMoviesRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
 		4E7743CF28CC929500A4249D /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +325,10 @@
 		4E7743E328CC949100A4249D /* DataProvider */ = {
 			isa = PBXGroup;
 			children = (
+				4E4B1B5928D1182200111B2B /* Core */,
+				4E4B1B5F28D1182200111B2B /* Manager */,
+				4E4B1B6328D1182200111B2B /* Model */,
+				4E4B1B6828D1182200111B2B /* Requests */,
 				4E7743E428CC94DC00A4249D /* APILogger.swift */,
 				4E7743E528CC94DC00A4249D /* APIRequestInterceptor.swift */,
 				4E7743E628CC94DC00A4249D /* DataProvider.swift */,
@@ -537,9 +596,17 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		4EB2AAC828D115F3003FBAD8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		4EC7335328CBE22200A98349 = {
 			isa = PBXGroup;
 			children = (
+				4E70825028D11E10005FBDEE /* .swiftlint.yml */,
 				4E7744F328CCB6A100A4249D /* swiftgen.yml */,
 				4EC7335E28CBE22300A98349 /* OMDB-API-Firebase */,
 				4EC7337528CBE22700A98349 /* OMDB-API-FirebaseTests */,
@@ -563,6 +630,7 @@
 		4EC7335E28CBE22300A98349 /* OMDB-API-Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				4EB2AAC828D115F3003FBAD8 /* New Group */,
 				4E7743CF28CC929500A4249D /* AppDelegate */,
 				4E77440228CC966E00A4249D /* Scenes */,
 				4E7743EC28CC957C00A4249D /* Routing */,
@@ -612,9 +680,9 @@
 				4E77449B28CCA55400A4249D /* MobilliumBuilders.framework */,
 				4E77449428CCA3B600A4249D /* UIComponents.framework */,
 				4E77449028CCA3AF00A4249D /* DataProvider.framework */,
-				8C7B6169F1C69926B541702F /* Pods_OMDB_API_Firebase.framework */,
-				0F2B5DC0022228D33B22527F /* Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework */,
-				28F16A71D627EC98F586F699 /* Pods_OMDB_API_FirebaseTests.framework */,
+				D25CFE0649649B5E79AC62B2 /* Pods_OMDB_API_Firebase.framework */,
+				597F717E087DFEA8DD8967DA /* Pods_OMDB_API_Firebase_OMDB_API_FirebaseUITests.framework */,
+				63E02C3D6C2A50DBF64B0E96 /* Pods_OMDB_API_FirebaseTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -622,12 +690,12 @@
 		DBB50C04194417D2A312CE44 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1CD7930E33DB74EC60C36CAA /* Pods-OMDB-API-Firebase.debug.xcconfig */,
-				0161E3474DC37AC7153D2523 /* Pods-OMDB-API-Firebase.release.xcconfig */,
-				F1F0B6F4125CD64775C1C50E /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.debug.xcconfig */,
-				F9CAEE86F4766D2202C8A248 /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.release.xcconfig */,
-				E6D0600A4A5D458B21C2C65F /* Pods-OMDB-API-FirebaseTests.debug.xcconfig */,
-				8DC08DA67DDC2E418A41A821 /* Pods-OMDB-API-FirebaseTests.release.xcconfig */,
+				6047DC15AF3453AFC46101C9 /* Pods-OMDB-API-Firebase.debug.xcconfig */,
+				514576388D5DD18CC340729D /* Pods-OMDB-API-Firebase.release.xcconfig */,
+				EAF804E4C871742EBD656E3C /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.debug.xcconfig */,
+				4878FA98B1E58AB945A2FAD9 /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.release.xcconfig */,
+				FC39B3AE10DAA47795AB7873 /* Pods-OMDB-API-FirebaseTests.debug.xcconfig */,
+				B45C6E135996917A19A1DC2E /* Pods-OMDB-API-FirebaseTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -639,15 +707,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC7338628CBE22700A98349 /* Build configuration list for PBXNativeTarget "OMDB-API-Firebase" */;
 			buildPhases = (
-				15F7371A0819164D89B839BE /* [CP] Check Pods Manifest.lock */,
+				D11FD6A3F92809A22CA9E8B3 /* [CP] Check Pods Manifest.lock */,
 				4E77453428CCBDDC00A4249D /* SwiftGen */,
 				4EC7335828CBE22200A98349 /* Sources */,
 				4E77453328CCBBFF00A4249D /* Swiftlint */,
 				4EC7335928CBE22200A98349 /* Frameworks */,
 				4EC7335A28CBE22200A98349 /* Resources */,
-				4E77449328CCA3AF00A4249D /* Embed Frameworks */,
 				4E80854128CE880600E557C9 /* ShellScript */,
-				236CF88BC2FF8186E033EA02 /* [CP] Embed Pods Frameworks */,
+				A0F3123C69179560B82A5837 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -662,7 +729,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC7338928CBE22700A98349 /* Build configuration list for PBXNativeTarget "OMDB-API-FirebaseTests" */;
 			buildPhases = (
-				64AA01294FB62793FC755BC2 /* [CP] Check Pods Manifest.lock */,
+				E309657AC291EFC5D73853A8 /* [CP] Check Pods Manifest.lock */,
 				4EC7336E28CBE22700A98349 /* Sources */,
 				4EC7336F28CBE22700A98349 /* Frameworks */,
 				4EC7337028CBE22700A98349 /* Resources */,
@@ -681,11 +748,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC7338C28CBE22700A98349 /* Build configuration list for PBXNativeTarget "OMDB-API-FirebaseUITests" */;
 			buildPhases = (
-				2A6C8B536387EE19E33B4D18 /* [CP] Check Pods Manifest.lock */,
+				3983F25722446E2EF4F6DB5F /* [CP] Check Pods Manifest.lock */,
 				4EC7337828CBE22700A98349 /* Sources */,
 				4EC7337928CBE22700A98349 /* Frameworks */,
 				4EC7337A28CBE22700A98349 /* Resources */,
-				A1B9F78720A2EFA73E622156 /* [CP] Embed Pods Frameworks */,
+				FF1214FFB493E9096F64D7AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -749,6 +816,7 @@
 			files = (
 				4E77452928CCB6B600A4249D /* JosefinSans-ThinItalic.ttf in Resources */,
 				4E77452128CCB6B600A4249D /* Nunito-SemiBold.ttf in Resources */,
+				4E70825128D11E10005FBDEE /* .swiftlint.yml in Resources */,
 				4E77458828CCEF0600A4249D /* GoogleService-Info.plist in Resources */,
 				4E77451928CCB6B600A4249D /* JosefinSans-Italic.ttf in Resources */,
 				4E77452228CCB6B600A4249D /* Nunito-Bold.ttf in Resources */,
@@ -795,46 +863,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15F7371A0819164D89B839BE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OMDB-API-Firebase-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		236CF88BC2FF8186E033EA02 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OMDB-API-Firebase/Pods-OMDB-API-Firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OMDB-API-Firebase/Pods-OMDB-API-Firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OMDB-API-Firebase/Pods-OMDB-API-Firebase-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2A6C8B536387EE19E33B4D18 /* [CP] Check Pods Manifest.lock */ = {
+		3983F25722446E2EF4F6DB5F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -911,7 +940,46 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
-		64AA01294FB62793FC755BC2 /* [CP] Check Pods Manifest.lock */ = {
+		A0F3123C69179560B82A5837 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OMDB-API-Firebase/Pods-OMDB-API-Firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OMDB-API-Firebase/Pods-OMDB-API-Firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OMDB-API-Firebase/Pods-OMDB-API-Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11FD6A3F92809A22CA9E8B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OMDB-API-Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E309657AC291EFC5D73853A8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -933,7 +1001,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A1B9F78720A2EFA73E622156 /* [CP] Embed Pods Frameworks */ = {
+		FF1214FFB493E9096F64D7AD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -959,6 +1027,7 @@
 			files = (
 				4E7743FA28CC95E200A4249D /* Transition.swift in Sources */,
 				4E7745BB28CD077300A4249D /* UIImage+Images.swift in Sources */,
+				4E4B1B6F28D1182200111B2B /* APIDataProvider.swift in Sources */,
 				4E77441128CC96B900A4249D /* HomeViewModel.swift in Sources */,
 				4E7743E828CC94DD00A4249D /* APIRequestInterceptor.swift in Sources */,
 				4E77459E28CD027700A4249D /* UITextField+Extensions.swift in Sources */,
@@ -969,18 +1038,27 @@
 				4E77459A28CD027700A4249D /* HomeCell.swift in Sources */,
 				4E80852D28CE48CA00E557C9 /* SplashRouter.swift in Sources */,
 				4E77441028CC96B900A4249D /* HomeViewController.swift in Sources */,
+				4E4B1B7528D1182200111B2B /* MovieListResponse.swift in Sources */,
 				4E7743E728CC94DD00A4249D /* APILogger.swift in Sources */,
 				4E77441828CC96CB00A4249D /* DetailViewController.swift in Sources */,
 				4E77440728CC968F00A4249D /* BaseViewModel.swift in Sources */,
 				4E7743FC28CC95E200A4249D /* ModalTransition.swift in Sources */,
+				4E4B1B6C28D1182200111B2B /* RequestMethod.swift in Sources */,
+				4E4B1B7428D1182200111B2B /* HomeSection.swift in Sources */,
 				4E77441B28CC96CB00A4249D /* DetailRouter.swift in Sources */,
 				4E80854028CE73F600E557C9 /* StringConstants.swift in Sources */,
 				4E80853628CE5C2000E557C9 /* ReachabilityManager.swift in Sources */,
+				4E4B1B7328D1182200111B2B /* HomeSectionType.swift in Sources */,
+				4E4B1B7828D11A8100111B2B /* Typealias.swift in Sources */,
 				4E7745B928CD077300A4249D /* UIImage+Icons.swift in Sources */,
 				4E77440828CC968F00A4249D /* BaseViewController.swift in Sources */,
 				4E80852928CE439900E557C9 /* String+Extensions.swift in Sources */,
+				4E4B1B6B28D1182200111B2B /* RequestProtocol.swift in Sources */,
 				4E7745A828CD028300A4249D /* HomeScreenTopViewModel.swift in Sources */,
 				4E7745AB28CD028300A4249D /* ToastsPresenter.swift in Sources */,
+				4E4B1B7128D1182200111B2B /* APIDecodableResponseRequest.swift in Sources */,
+				4E4B1B6A28D1182200111B2B /* DecodableResponseRequest.swift in Sources */,
+				4E4B1B7028D1182200111B2B /* APIRequestAdapter.swift in Sources */,
 				4E80852F28CE48CA00E557C9 /* SplashViewModel.swift in Sources */,
 				4E77441328CC96B900A4249D /* HomeRouter.swift in Sources */,
 				4E7745A928CD028300A4249D /* HomeScreenTopView.swift in Sources */,
@@ -988,10 +1066,12 @@
 				4E7745AC28CD028300A4249D /* ToastWarningView.swift in Sources */,
 				4E77441A28CC96CB00A4249D /* DetailViewModel.swift in Sources */,
 				4E7743E928CC94DD00A4249D /* DataProvider.swift in Sources */,
+				4E4B1B7228D1182200111B2B /* HomeCellItem.swift in Sources */,
 				4E80853828CE5CCB00E557C9 /* CustomAlertView.swift in Sources */,
 				4E77441928CC96CB00A4249D /* DetailRoute.swift in Sources */,
 				4E80853228CE55DA00E557C9 /* SplashRoute.swift in Sources */,
 				4EC7336028CBE22300A98349 /* AppDelegate.swift in Sources */,
+				4E4B1B7628D1182200111B2B /* GetMoviesRequest.swift in Sources */,
 				4E7745BD28CD077B00A4249D /* Assets.swift in Sources */,
 				4E77441228CC96B900A4249D /* HomeRoute.swift in Sources */,
 				4E7745AE28CD048900A4249D /* Fonts.swift in Sources */,
@@ -1005,6 +1085,8 @@
 				4E80852E28CE48CA00E557C9 /* SplashViewController.swift in Sources */,
 				4E80853A28CE5DD500E557C9 /* AlertModal.swift in Sources */,
 				4E77459B28CD027700A4249D /* HomeCellModel.swift in Sources */,
+				4E4B1B6D28D1182200111B2B /* RequestEncoding.swift in Sources */,
+				4E4B1B6E28D1182200111B2B /* DataProviderProtocol.swift in Sources */,
 				4E7743F328CC95C700A4249D /* Animator.swift in Sources */,
 				4E7743FD28CC95E200A4249D /* PushTransition.swift in Sources */,
 				4EC7339528CBE41500A98349 /* RCValues.swift in Sources */,
@@ -1180,7 +1262,7 @@
 		};
 		4EC7338728CBE22700A98349 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CD7930E33DB74EC60C36CAA /* Pods-OMDB-API-Firebase.debug.xcconfig */;
+			baseConfigurationReference = 6047DC15AF3453AFC46101C9 /* Pods-OMDB-API-Firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1213,7 +1295,7 @@
 		};
 		4EC7338828CBE22700A98349 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0161E3474DC37AC7153D2523 /* Pods-OMDB-API-Firebase.release.xcconfig */;
+			baseConfigurationReference = 514576388D5DD18CC340729D /* Pods-OMDB-API-Firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1244,7 +1326,7 @@
 		};
 		4EC7338A28CBE22700A98349 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6D0600A4A5D458B21C2C65F /* Pods-OMDB-API-FirebaseTests.debug.xcconfig */;
+			baseConfigurationReference = FC39B3AE10DAA47795AB7873 /* Pods-OMDB-API-FirebaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1265,7 +1347,7 @@
 		};
 		4EC7338B28CBE22700A98349 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DC08DA67DDC2E418A41A821 /* Pods-OMDB-API-FirebaseTests.release.xcconfig */;
+			baseConfigurationReference = B45C6E135996917A19A1DC2E /* Pods-OMDB-API-FirebaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1286,7 +1368,7 @@
 		};
 		4EC7338D28CBE22700A98349 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1F0B6F4125CD64775C1C50E /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.debug.xcconfig */;
+			baseConfigurationReference = EAF804E4C871742EBD656E3C /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1305,7 +1387,7 @@
 		};
 		4EC7338E28CBE22700A98349 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9CAEE86F4766D2202C8A248 /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.release.xcconfig */;
+			baseConfigurationReference = 4878FA98B1E58AB945A2FAD9 /* Pods-OMDB-API-Firebase-OMDB-API-FirebaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

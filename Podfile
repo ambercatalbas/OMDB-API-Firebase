@@ -3,8 +3,6 @@ target 'OMDB-API-Firebase' do
   use_frameworks!
   platform :ios, '13.0'
 
-workspace 'OMDB-API-Firebase'
-
   # Pods for PlanetTour
  
  # Network
@@ -36,25 +34,6 @@ workspace 'OMDB-API-Firebase'
     # Pods for testing
   end
 
-end
-
-target 'DataProvider' do
-  
-  project 'DataProvider/DataProvider.xcodeproj'
-  
-  # Pods for DataProvider
-  
-  # Network
-  pod 'Alamofire', '~> 5.4'
-  target 'DataProviderTests' do
-    inherit! :search_paths
-    # Pods for testing
-    
-    # Network
-    pod 'Alamofire', '~> 5.4'
-    
-  end
-  
 end
 
 post_install do |installer|

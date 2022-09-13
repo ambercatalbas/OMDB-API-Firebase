@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import DataProvider
 
 protocol BaseViewModelDataSource: AnyObject {}
 

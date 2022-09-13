@@ -4,7 +4,7 @@
 //
 //  Created by Amber Çatalbaş on 11.09.2022.
 //
-
+// swiftlint:disable:all
 import UIKit
 
 protocol CustomAlertViewButtonActionDelegate: AnyObject {
@@ -21,27 +21,46 @@ class CustomAlertView: UIView, AlertModal {
     let buttonright = UIButton()
     let buttonSingle = UIButton()
 
-    convenience init(title: String?, image: UIImage?, message: String?, titleHeight: CGFloat?, messageHeight: CGFloat?, imageHeight: CGFloat?, bnum: ButtonCount) {
+    convenience init(title: String?,
+                     image: UIImage?,
+                     message: String?,
+                     titleHeight: CGFloat?,
+                     messageHeight: CGFloat?,
+                     imageHeight: CGFloat?,
+                     bnum: ButtonCount) {
         self.init(frame: UIScreen.main.bounds)
-        initialize(title: title, image: image, message: message, titleHeight: titleHeight, messageHeight: messageHeight, imageHeight: imageHeight, bNum: bnum)
+        initialize(title: title,
+                   image: image,
+                   message: message,
+                   titleHeight: titleHeight,
+                   messageHeight: messageHeight,
+                   imageHeight: imageHeight,
+                   bNum: bnum)
 
     }
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
-
+    // swiftlint:disable fatal_error unavailable_function
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
-
+    // swiftlint:enable fatal_error unavailable_function
+    
     @objc func didTappedOnBackgroundView() {
         //dismiss(animated: true)
     }
 
     // ----------------
 
-    func initialize(title: String?, image: UIImage?, message: String?, titleHeight: CGFloat?, messageHeight: CGFloat?, imageHeight: CGFloat?, bNum: ButtonCount) {
+    // swiftlint:disable function_body_length
+    func initialize(title: String?,
+                    image: UIImage?,
+                    message: String?,
+                    titleHeight: CGFloat?,
+                    messageHeight: CGFloat?,
+                    imageHeight: CGFloat?,
+                    bNum: ButtonCount) {
         dialogView.clipsToBounds = true
 
         backgroundView.frame = frame
@@ -184,7 +203,6 @@ class CustomAlertView: UIView, AlertModal {
             print("Non Button")
         }
 
-
         dialogView.addSubview(stackBackView)
         dialogView.addSubview(stackBottom)
 
@@ -196,7 +214,6 @@ class CustomAlertView: UIView, AlertModal {
             dialogViewHeight = titleView.frame.height + imageView.frame.height + messageView.frame.height + stackBackView.frame.height
         }
 
-
         dialogView.frame.origin = CGPoint(x: 32, y: frame.height)
         dialogView.frame.size = CGSize(width: frame.width - 84, height: dialogViewHeight)
         dialogView.backgroundColor = UIColor.white
@@ -205,6 +222,7 @@ class CustomAlertView: UIView, AlertModal {
         addSubview(dialogView)
 
     }
+    // swiftlint:enable function_body_length
 
     @objc func buttonTapped(sender: UIButton) {
         delegate?.alertButtonAction(buttonTag: sender.tag)
@@ -216,3 +234,4 @@ enum ButtonCount {
     case singleButton
     case nonButton
 }
+// swiftlint:enable:all

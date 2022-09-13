@@ -1,7 +1,5 @@
 included:
-  - NoteMVVMR
-  - DataProvider
-  - UIComponents
+  - OMDB-API-Firebase
 excluded:
   - .git
   - Pods

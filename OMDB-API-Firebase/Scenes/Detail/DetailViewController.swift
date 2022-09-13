@@ -99,10 +99,20 @@ extension DetailViewController {
         let movie = self.viewModel.movie
         title = movie.title
         ivPoster.setImage(movie.poster)
-        lblTitle.attributedText = String(format: "%@ %@", L10n.DetailViewController.movieName, movie.title ?? "").attributedTextBold(boldString: L10n.DetailViewController.movieName, font: .font(.josefinSansRegular, size: .custom(size: 20)), boldFont: .font(.josefinSansBold, size: .custom(size: 22)))
+        lblTitle.attributedText = String(format: "%@ %@",
+                                         L10n.DetailViewController.movieName,
+                                         movie.title ?? "").attributedTextBold(boldString: L10n.DetailViewController.movieName,
+                                                                               font: .font(.josefinSansRegular, size: .custom(size: 20)),
+                                                                               boldFont: .font(.josefinSansBold, size: .custom(size: 22)))
         lblYear.attributedText = String(format: "%@ %@", L10n.DetailViewController.movieYear, movie.year
-                              ?? "").attributedTextBold(boldString: L10n.DetailViewController.movieYear, font: .font(.josefinSansRegular, size: .custom(size: 20)), boldFont: .font(.josefinSansBold, size: .custom(size: 22)))
-        lblType.attributedText = String(format: "%@ %@", L10n.DetailViewController.movieType, movie.type ?? "").attributedTextBold(boldString: L10n.DetailViewController.movieType, font: .font(.josefinSansRegular, size: .custom(size: 20)), boldFont: .font(.josefinSansBold, size: .custom(size: 22)))
+                              ?? "").attributedTextBold(boldString: L10n.DetailViewController.movieYear,
+                                                        font: .font(.josefinSansRegular, size: .custom(size: 20)),
+                                                        boldFont: .font(.josefinSansBold, size: .custom(size: 22)))
+        lblType.attributedText = String(format: "%@ %@",
+                                        L10n.DetailViewController.movieType,
+                                        movie.type ?? "").attributedTextBold(boldString: L10n.DetailViewController.movieType,
+                                                                             font: .font(.josefinSansRegular, size: .custom(size: 20)),
+                                                                             boldFont: .font(.josefinSansBold, size: .custom(size: 22)))
         
         self.eventMovie(movie: movie)
     }
